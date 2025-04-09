@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e783375b, #8008f1);
+    color: #222;
+    padding-bottom: 100px; 
+
+}
+
+/* Page title*/
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #052b57;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack sections in two rows */
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* Form section*/
+.form-section {
+    width: 100%; /* Full width */
+    max-width: 600px;
+    padding: 30px;
+    background-color: rgba(18, 242, 175, 0.614);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    color: #222;
+    text-align: center;
+}
+
+/* Form inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #1565c0;
+    outline: none;
+}
+
+/* Submit button*/
+.btn {
+    background-color: #1565c0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0d47a1;
+}
+
+/*Table section*/
+.table-section {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px; /* Space between form and table */
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding: 15px 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*Table styling*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+thead tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    background-color: #022a57;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+tbody {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    white-space: nowrap;
+}
+
+/*reset button */
+.resetButton {
+    background-color: #ff9800;
+}
+
+.resetButton:hover {
+    background-color: #e65100;
+}
+
+
